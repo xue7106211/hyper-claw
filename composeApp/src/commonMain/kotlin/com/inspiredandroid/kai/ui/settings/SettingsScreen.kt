@@ -368,35 +368,33 @@ private fun SettingsTabSelector(
     currentTab: SettingsTab,
     onSelectTab: (SettingsTab) -> Unit,
 ) {
-    val tabs = SettingsTab.entries
-    val selectedIndex = tabs.indexOf(currentTab)
+    val tabs = SettingsTab.entries.filter { it != SettingsTab.Integrations }
     Box(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp, vertical = 8.dp),
         contentAlignment = Alignment.Center,
     ) {
-        androidx.compose.material3.PrimaryScrollableTabRow(
-            selectedTabIndex = selectedIndex,
-            modifier = Modifier.widthIn(max = 600.dp).padding(vertical = 8.dp),
-            containerColor = Color.Transparent,
-            edgePadding = 0.dp,
-            divider = {},
+        SingleChoiceSegmentedButtonRow(
+            modifier = Modifier.widthIn(max = 500.dp).fillMaxWidth(),
         ) {
-            tabs.forEach { tab ->
-                androidx.compose.material3.Tab(
+            tabs.forEachIndexed { index, tab ->
+                SegmentedButton(
                     selected = currentTab == tab,
                     onClick = { onSelectTab(tab) },
+                    shape = SegmentedButtonDefaults.itemShape(
+                        index = index,
+                        count = tabs.size,
+                    ),
                     modifier = Modifier.pointerHoverIcon(PointerIcon.Hand),
-                    text = {
-                        Text(
-                            text = when (tab) {
-                                SettingsTab.General -> stringResource(Res.string.settings_tab_general)
-                                SettingsTab.Services -> stringResource(Res.string.settings_tab_services)
-                                SettingsTab.Tools -> stringResource(Res.string.settings_tab_tools)
-                                SettingsTab.Integrations -> stringResource(Res.string.settings_tab_integrations)
-                            },
-                        )
-                    },
-                )
+                ) {
+                    Text(
+                        text = when (tab) {
+                            SettingsTab.General -> stringResource(Res.string.settings_tab_general)
+                            SettingsTab.Services -> stringResource(Res.string.settings_tab_services)
+                            SettingsTab.Tools -> stringResource(Res.string.settings_tab_tools)
+                            SettingsTab.Integrations -> stringResource(Res.string.settings_tab_integrations)
+                        },
+                    )
+                }
             }
         }
     }
@@ -423,21 +421,6 @@ private fun BottomInfo() {
         )
 
         Spacer(Modifier.width(8.dp))
-
-        Icon(
-            modifier = Modifier
-                .clip(CircleShape)
-                .size(24.dp)
-                .clickable(onClick = {
-                    uriHandler.openUri("https://github.com/SimonSchubert/Kai")
-                })
-                .pointerHoverIcon(PointerIcon.Hand),
-            painter = painterResource(Res.drawable.github_mark),
-            contentDescription = null,
-            tint = MaterialTheme.colorScheme.onBackground,
-        )
-
-        Spacer(Modifier.width(12.dp))
 
         Text(
             text = stringResource(Res.string.settings_documentation),
@@ -661,15 +644,6 @@ private fun ServicesContent(uiState: SettingsUiState) {
         }
     }
 
-    // Free tier card (always at bottom)
-    Spacer(Modifier.height(16.dp))
-    FreeSettings(
-        showFallbackToggle = entries.isNotEmpty(),
-        isFreeFallbackEnabled = uiState.isFreeFallbackEnabled,
-        onToggleFreeFallback = uiState.onToggleFreeFallback,
-        currentSponsors = uiState.currentSponsors,
-        pastSponsors = uiState.pastSponsors,
-    )
 
     // Add service bottom sheet
     if (showAddServiceSheet) {
@@ -1384,12 +1358,6 @@ private fun GeneralContent(uiState: SettingsUiState) {
                             )
                         }
                     }
-                    SettingsCard {
-                        ExportImportSection(
-                            onExportSettings = uiState.onExportSettings,
-                            onImportSettings = uiState.onImportSettings,
-                        )
-                    }
                 }
             }
         } else {
@@ -1457,12 +1425,6 @@ private fun GeneralContent(uiState: SettingsUiState) {
                             onChangePollInterval = uiState.onChangeEmailPollInterval,
                         )
                     }
-                }
-                SettingsCard {
-                    ExportImportSection(
-                        onExportSettings = uiState.onExportSettings,
-                        onImportSettings = uiState.onImportSettings,
-                    )
                 }
             }
         }

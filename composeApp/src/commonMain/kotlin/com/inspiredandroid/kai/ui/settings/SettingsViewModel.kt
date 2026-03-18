@@ -70,7 +70,7 @@ class SettingsViewModel(
         onCancelTask = ::onCancelTask,
         isDaemonEnabled = dataRepository.isDaemonEnabled(),
         onToggleDaemon = ::onToggleDaemon,
-        showDaemonToggle = platformName == "Android",
+        showDaemonToggle = false,
         isHeartbeatEnabled = dataRepository.getHeartbeatConfig().enabled,
         heartbeatIntervalMinutes = dataRepository.getHeartbeatConfig().intervalMinutes,
         heartbeatActiveHoursStart = dataRepository.getHeartbeatConfig().activeHoursStart,

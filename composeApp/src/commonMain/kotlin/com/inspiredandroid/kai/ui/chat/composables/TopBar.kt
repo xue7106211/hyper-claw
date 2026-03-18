@@ -86,29 +86,6 @@ internal fun TopBar(
             }
 
             Row(modifier = Modifier.align(Alignment.CenterEnd)) {
-                if (textToSpeech != null) {
-                    IconButton(
-                        modifier = Modifier.pointerHoverIcon(PointerIcon.Hand),
-                        onClick = {
-                            if (isSpeechOutputEnabled && isSpeaking) {
-                                actions.setIsSpeaking(false, "")
-                                textToSpeech.stop()
-                            }
-                            actions.toggleSpeechOutput()
-                        },
-                    ) {
-                        Icon(
-                            imageVector =
-                            if (isSpeechOutputEnabled) {
-                                vectorResource(Res.drawable.ic_volume_up)
-                            } else {
-                                vectorResource(Res.drawable.ic_volume_off)
-                            },
-                            contentDescription = stringResource(Res.string.toggle_speech_output_content_description),
-                            tint = MaterialTheme.colorScheme.onBackground,
-                        )
-                    }
-                }
             }
         }
     } else {
@@ -147,30 +124,6 @@ internal fun TopBar(
             }
 
             Spacer(Modifier.weight(1f))
-
-            if (textToSpeech != null) {
-                IconButton(
-                    modifier = Modifier.pointerHoverIcon(PointerIcon.Hand),
-                    onClick = {
-                        if (isSpeechOutputEnabled && isSpeaking) {
-                            actions.setIsSpeaking(false, "")
-                            textToSpeech.stop()
-                        }
-                        actions.toggleSpeechOutput()
-                    },
-                ) {
-                    Icon(
-                        imageVector =
-                        if (isSpeechOutputEnabled) {
-                            vectorResource(Res.drawable.ic_volume_up)
-                        } else {
-                            vectorResource(Res.drawable.ic_volume_off)
-                        },
-                        contentDescription = stringResource(Res.string.toggle_speech_output_content_description),
-                        tint = MaterialTheme.colorScheme.onBackground,
-                    )
-                }
-            }
 
             IconButton(
                 modifier = Modifier.pointerHoverIcon(PointerIcon.Hand),
