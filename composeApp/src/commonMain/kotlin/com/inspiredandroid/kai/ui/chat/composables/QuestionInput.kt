@@ -52,8 +52,8 @@ import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.unit.dp
 import com.inspiredandroid.kai.data.ServiceEntry
 import com.inspiredandroid.kai.isMobilePlatform
-import com.inspiredandroid.kai.ui.warmRose
-import com.inspiredandroid.kai.ui.softPeach
+import com.inspiredandroid.kai.ui.brandBlue
+import com.inspiredandroid.kai.ui.lightBlue
 import com.inspiredandroid.kai.ui.outlineTextFieldColors
 import io.github.vinceglb.filekit.PlatformFile
 import io.github.vinceglb.filekit.dialogs.FileKitType
@@ -71,7 +71,7 @@ import org.jetbrains.compose.resources.painterResource
 import org.jetbrains.compose.resources.stringResource
 import org.jetbrains.compose.resources.vectorResource
 
-private val gradientBrush = Brush.horizontalGradient(listOf(warmRose, softPeach))
+private val gradientBrush = Brush.horizontalGradient(listOf(brandBlue, lightBlue))
 
 @Composable
 fun QuestionInput(
@@ -181,7 +181,7 @@ fun QuestionInput(
             placeholder = {
                 Text(
                     stringResource(Res.string.prompt_ask_question),
-                    color = MaterialTheme.colorScheme.onBackground,
+                    color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.4f),
                 )
             },
             trailingIcon = {
