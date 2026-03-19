@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Kai'ye Hoş Geldiniz</string>
+    <string name="welcome_message">Hyper-Claw'ye Hoş Geldiniz</string>
     <string name="prompt_ask_question">Soru sorun</string>
     <string name="error_invalid_api_key">Geçersiz API Anahtarı. Lütfen ayarlarınızı kontrol edin.</string>
     <string name="error_rate_limit_exceeded">İstek limiti aşıldı. Lütfen daha sonra tekrar deneyin.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Yeniden oluştur</string>
     <string name="error_empty_response">Yanıt alınamadı. Yeni bir sohbet başlatmayı veya mesajınızı kısaltmayı deneyin.</string>
     <string name="settings_daemon_mode">Arka Plan Modu</string>
-    <string name="settings_daemon_mode_description">Uygulama ön planda olmasa bile zamanlanmış görevlerin çalışması için Kai\'yi arka planda çalışır durumda tutun.</string>
+    <string name="settings_daemon_mode_description">Uygulama ön planda olmasa bile zamanlanmış görevlerin çalışması için Hyper-Claw\'yi arka planda çalışır durumda tutun.</string>
     <string name="settings_scheduled_tasks">Zamanlanmış Görevler</string>
     <string name="settings_scheduled_tasks_description">AI tarafından gelecekte çalıştırılmak üzere zamanlanan görevler. Zamanlanmış görevler oluşturmak için AI\'dan size hatırlatmasını veya daha sonra bir şey çalıştırmasını isteyin.</string>
     <string name="settings_scheduled_tasks_cancel">Görevi iptal et</string>

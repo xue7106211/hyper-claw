@@ -22,7 +22,7 @@ import org.jetbrains.compose.resources.painterResource
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
-        title = "Kai",
+        title = "Hyper-Claw",
         icon = painterResource(Res.drawable.logo),
     ) {
         // Defer TTS initialization until after the first frame

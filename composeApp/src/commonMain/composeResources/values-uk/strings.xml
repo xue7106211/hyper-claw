@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Ласкаво просимо до Kai</string>
+    <string name="welcome_message">Ласкаво просимо до Hyper-Claw</string>
     <string name="prompt_ask_question">Задати питання</string>
     <string name="error_invalid_api_key">Недійсний ключ API. Будь ласка, перевірте налаштування.</string>
     <string name="error_rate_limit_exceeded">Перевищено ліміт запитів. Будь ласка, спробуйте пізніше.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Згенерувати заново</string>
     <string name="error_empty_response">Відповідь не отримано. Спробуйте розпочати новий чат або скоротити повідомлення.</string>
     <string name="settings_daemon_mode">Фоновий режим</string>
-    <string name="settings_daemon_mode_description">Тримати Kai запущеним у фоновому режимі, щоб заплановані завдання виконувались навіть коли додаток не на передньому плані.</string>
+    <string name="settings_daemon_mode_description">Тримати Hyper-Claw запущеним у фоновому режимі, щоб заплановані завдання виконувались навіть коли додаток не на передньому плані.</string>
     <string name="settings_scheduled_tasks">Заплановані завдання</string>
     <string name="settings_scheduled_tasks_description">Завдання, заплановані ШІ для виконання в майбутньому. Попросіть ШІ нагадати вам або виконати щось пізніше, щоб створити заплановані завдання.</string>
     <string name="settings_scheduled_tasks_cancel">Скасувати завдання</string>

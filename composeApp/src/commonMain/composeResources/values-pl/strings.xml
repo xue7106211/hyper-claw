@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Witamy w Kai</string>
+    <string name="welcome_message">Witamy w Hyper-Claw</string>
     <string name="prompt_ask_question">Zadaj pytanie</string>
     <string name="error_invalid_api_key">Nieprawidłowy klucz API. Sprawdź ustawienia.</string>
     <string name="error_rate_limit_exceeded">Przekroczono limit żądań. Spróbuj ponownie później.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Wygeneruj ponownie</string>
     <string name="error_empty_response">Nie otrzymano odpowiedzi. Spróbuj rozpocząć nowy czat lub skrócić wiadomość.</string>
     <string name="settings_daemon_mode">Tryb demona</string>
-    <string name="settings_daemon_mode_description">Utrzymuj Kai działającego w tle, aby zaplanowane zadania były wykonywane nawet gdy aplikacja nie jest na pierwszym planie.</string>
+    <string name="settings_daemon_mode_description">Utrzymuj Hyper-Claw działającego w tle, aby zaplanowane zadania były wykonywane nawet gdy aplikacja nie jest na pierwszym planie.</string>
     <string name="settings_scheduled_tasks">Zaplanowane zadania</string>
     <string name="settings_scheduled_tasks_description">Zadania zaplanowane przez AI do przyszłego wykonania. Poproś AI o przypomnienie lub uruchomienie czegoś później, aby utworzyć zaplanowane zadania.</string>
     <string name="settings_scheduled_tasks_cancel">Anuluj zadanie</string>

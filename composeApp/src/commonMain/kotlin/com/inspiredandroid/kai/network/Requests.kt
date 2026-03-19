@@ -67,7 +67,7 @@ class Requests {
             )
         }
         install(UserAgent) {
-            agent = "Kai/${Version.appVersion} ($platformName)"
+            agent = "Hyper-Claw/${Version.appVersion} ($platformName)"
         }
         install(HttpTimeout) {
             requestTimeoutMillis = 60.seconds.inWholeMilliseconds

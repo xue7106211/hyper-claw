@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">重新生成</string>
     <string name="error_empty_response">未收到回复。请尝试开始新对话或缩短您的消息。</string>
     <string name="settings_daemon_mode">后台模式</string>
-    <string name="settings_daemon_mode_description">让 Kai 在后台持续运行，以便即使应用不在前台时计划任务也能执行。</string>
+    <string name="settings_daemon_mode_description">让 Hyper-Claw 在后台持续运行，以便即使应用不在前台时计划任务也能执行。</string>
     <string name="settings_scheduled_tasks">计划任务</string>
     <string name="settings_scheduled_tasks_description">AI 安排的未来执行任务。让 AI 提醒您或稍后运行某些操作来创建计划任务。</string>
     <string name="settings_scheduled_tasks_cancel">取消任务</string>

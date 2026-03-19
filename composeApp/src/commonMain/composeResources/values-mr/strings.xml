@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Kai मध्ये आपले स्वागत आहे</string>
+    <string name="welcome_message">Hyper-Claw मध्ये आपले स्वागत आहे</string>
     <string name="prompt_ask_question">प्रश्न विचारा</string>
     <string name="error_invalid_api_key">अवैध API की. कृपया तुमची सेटिंग्ज तपासा.</string>
     <string name="error_rate_limit_exceeded">दर मर्यादा ओलांडली. कृपया नंतर पुन्हा प्रयत्न करा.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">पुन्हा तयार करा</string>
     <string name="error_empty_response">कोणताही प्रतिसाद मिळाला नाही. नवीन चॅट सुरू करा किंवा तुमचा संदेश लहान करा.</string>
     <string name="settings_daemon_mode">डेमन मोड</string>
-    <string name="settings_daemon_mode_description">अॅप अग्रभागी नसतानाही नियोजित कार्ये पूर्ण होतील यासाठी Kai पार्श्वभूमीत चालू ठेवा.</string>
+    <string name="settings_daemon_mode_description">अॅप अग्रभागी नसतानाही नियोजित कार्ये पूर्ण होतील यासाठी Hyper-Claw पार्श्वभूमीत चालू ठेवा.</string>
     <string name="settings_scheduled_tasks">नियोजित कार्ये</string>
     <string name="settings_scheduled_tasks_description">AI ने भविष्यातील अंमलबजावणीसाठी नियोजित केलेली कार्ये. नियोजित कार्ये तयार करण्यासाठी AI ला तुम्हाला आठवण करून द्या किंवा नंतर काहीतरी चालवा असे सांगा.</string>
     <string name="settings_scheduled_tasks_cancel">कार्य रद्द करा</string>

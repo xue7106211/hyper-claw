@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Bainvegni tar Kai</string>
+    <string name="welcome_message">Bainvegni tar Hyper-Claw</string>
     <string name="prompt_ask_question">Fa ina dumonda</string>
     <string name="error_invalid_api_key">Clav API nunvalida. Controlai Voss parameters.</string>
     <string name="error_rate_limit_exceeded">Limit da dumondas surpassà. Empruvai pli tard.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Regenerar</string>
     <string name="error_empty_response">Nagina resposta retschavida. Empruvai da cumenzar in nov chat u da scursanir Voss messadi.</string>
     <string name="settings_daemon_mode">Modus daemon</string>
-    <string name="settings_daemon_mode_description">Laschar Kai ir en il fund per che incumbensas planisadas vegnan exequidas era sche l\'app n\'è betg en il prim plan.</string>
+    <string name="settings_daemon_mode_description">Laschar Hyper-Claw ir en il fund per che incumbensas planisadas vegnan exequidas era sche l\'app n\'è betg en il prim plan.</string>
     <string name="settings_scheduled_tasks">Incumbensas planisadas</string>
     <string name="settings_scheduled_tasks_description">Incumbensas planisadas da l\'AI per l\'execuziun futura. Dumandai a l\'AI da s\'enregurdar u da lantschar insatge pli tard per crear incumbensas planisadas.</string>
     <string name="settings_scheduled_tasks_cancel">Annullar incumbensa</string>

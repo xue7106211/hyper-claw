@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Bine ați venit în Kai</string>
+    <string name="welcome_message">Bine ați venit în Hyper-Claw</string>
     <string name="prompt_ask_question">Pune o întrebare</string>
     <string name="error_invalid_api_key">Cheie API invalidă. Vă rugăm să verificați setările.</string>
     <string name="error_rate_limit_exceeded">Limita de solicitări a fost depășită. Vă rugăm să încercați din nou mai târziu.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Regenerează</string>
     <string name="error_empty_response">Nu s-a primit niciun răspuns. Încercați să începeți o conversație nouă sau să scurtați mesajul.</string>
     <string name="settings_daemon_mode">Mod Daemon</string>
-    <string name="settings_daemon_mode_description">Mențineți Kai rulând în fundal astfel încât sarcinile programate să se execute chiar și când aplicația nu este în prim-plan.</string>
+    <string name="settings_daemon_mode_description">Mențineți Hyper-Claw rulând în fundal astfel încât sarcinile programate să se execute chiar și când aplicația nu este în prim-plan.</string>
     <string name="settings_scheduled_tasks">Sarcini programate</string>
     <string name="settings_scheduled_tasks_description">Sarcini programate de IA pentru execuție viitoare. Cereți-i IA să vă amintească sau să ruleze ceva mai târziu pentru a crea sarcini programate.</string>
     <string name="settings_scheduled_tasks_cancel">Anulează sarcina</string>

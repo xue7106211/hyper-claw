@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">إعادة التوليد</string>
     <string name="error_empty_response">لم يتم تلقي أي رد. حاول بدء محادثة جديدة أو تقصير رسالتك.</string>
     <string name="settings_daemon_mode">وضع الخلفية</string>
-    <string name="settings_daemon_mode_description">أبقِ Kai يعمل في الخلفية حتى تُنفَّذ المهام المجدولة حتى عندما لا يكون التطبيق في المقدمة.</string>
+    <string name="settings_daemon_mode_description">أبقِ Hyper-Claw يعمل في الخلفية حتى تُنفَّذ المهام المجدولة حتى عندما لا يكون التطبيق في المقدمة.</string>
     <string name="settings_scheduled_tasks">المهام المجدولة</string>
     <string name="settings_scheduled_tasks_description">مهام جدولها الذكاء الاصطناعي للتنفيذ المستقبلي. اطلب من الذكاء الاصطناعي تذكيرك أو تشغيل شيء لاحقاً لإنشاء مهام مجدولة.</string>
     <string name="settings_scheduled_tasks_cancel">إلغاء المهمة</string>

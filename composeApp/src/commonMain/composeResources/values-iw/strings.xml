@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">ברוכים הבאים ל-Kai</string>
+    <string name="welcome_message">ברוכים הבאים ל-Hyper-Claw</string>
     <string name="prompt_ask_question">שאל שאלה</string>
     <string name="error_invalid_api_key">מפתח API לא תקין. בדוק את ההגדרות שלך.</string>
     <string name="error_rate_limit_exceeded">חריגה ממגבלת הבקשות. נסה שוב מאוחר יותר.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">יצירה מחדש</string>
     <string name="error_empty_response">לא התקבלה תשובה. נסה להתחיל צ\'אט חדש או לקצר את ההודעה שלך.</string>
     <string name="settings_daemon_mode">מצב שירות רקע</string>
-    <string name="settings_daemon_mode_description">השאר את Kai פועל ברקע כדי שמשימות מתוזמנות יבוצעו גם כשהאפליקציה אינה בחזית.</string>
+    <string name="settings_daemon_mode_description">השאר את Hyper-Claw פועל ברקע כדי שמשימות מתוזמנות יבוצעו גם כשהאפליקציה אינה בחזית.</string>
     <string name="settings_scheduled_tasks">משימות מתוזמנות</string>
     <string name="settings_scheduled_tasks_description">משימות שתוזמנו על ידי הבינה המלאכותית לביצוע עתידי. בקש מהבינה המלאכותית להזכיר לך או להריץ משהו מאוחר יותר כדי ליצור משימות מתוזמנות.</string>
     <string name="settings_scheduled_tasks_cancel">בטל משימה</string>

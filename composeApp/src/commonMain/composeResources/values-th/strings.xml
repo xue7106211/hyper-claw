@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">ยินดีต้อนรับสู่ Kai</string>
+    <string name="welcome_message">ยินดีต้อนรับสู่ Hyper-Claw</string>
     <string name="prompt_ask_question">ถามคำถาม</string>
     <string name="error_invalid_api_key">คีย์ API ไม่ถูกต้อง กรุณาตรวจสอบการตั้งค่าของคุณ</string>
     <string name="error_rate_limit_exceeded">เกินขีดจำกัดอัตรา กรุณาลองอีกครั้งในภายหลัง</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">สร้างใหม่</string>
     <string name="error_empty_response">ไม่ได้รับการตอบกลับ ลองเริ่มแชทใหม่หรือย่อข้อความของคุณ</string>
     <string name="settings_daemon_mode">โหมดเบื้องหลัง</string>
-    <string name="settings_daemon_mode_description">ให้ Kai ทำงานอยู่เบื้องหลังเพื่อให้งานที่กำหนดไว้ทำงานได้แม้แอปไม่ได้อยู่เบื้องหน้า</string>
+    <string name="settings_daemon_mode_description">ให้ Hyper-Claw ทำงานอยู่เบื้องหลังเพื่อให้งานที่กำหนดไว้ทำงานได้แม้แอปไม่ได้อยู่เบื้องหน้า</string>
     <string name="settings_scheduled_tasks">งานที่กำหนดไว้</string>
     <string name="settings_scheduled_tasks_description">งานที่ AI กำหนดไว้สำหรับการทำงานในอนาคต ขอให้ AI เตือนคุณหรือทำบางอย่างในภายหลังเพื่อสร้างงานที่กำหนดไว้</string>
     <string name="settings_scheduled_tasks_cancel">ยกเลิกงาน</string>

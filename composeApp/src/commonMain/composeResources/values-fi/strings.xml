@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Tervetuloa Kai-sovellukseen</string>
+    <string name="welcome_message">Tervetuloa Hyper-Claw-sovellukseen</string>
     <string name="prompt_ask_question">Kysy kysymys</string>
     <string name="error_invalid_api_key">Virheellinen API-avain. Tarkista asetuksesi.</string>
     <string name="error_rate_limit_exceeded">Pyynt\u00f6raja ylitetty. Yrit\u00e4 my\u00f6hemmin uudelleen.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Luo uudelleen</string>
     <string name="error_empty_response">Vastausta ei saatu. Kokeile aloittaa uusi keskustelu tai lyhentää viestiäsi.</string>
     <string name="settings_daemon_mode">Taustaprosessitila</string>
-    <string name="settings_daemon_mode_description">Pidä Kai käynnissä taustalla, jotta ajoitetut tehtävät suoritetaan, vaikka sovellus ei olisi etualalla.</string>
+    <string name="settings_daemon_mode_description">Pidä Hyper-Claw käynnissä taustalla, jotta ajoitetut tehtävät suoritetaan, vaikka sovellus ei olisi etualalla.</string>
     <string name="settings_scheduled_tasks">Ajoitetut tehtävät</string>
     <string name="settings_scheduled_tasks_description">Tekoälyn tulevaisuudessa suoritettavaksi ajoittamat tehtävät. Pyydä tekoälyä muistuttamaan sinua tai suorittamaan jotain myöhemmin luodaksesi ajoitettuja tehtäviä.</string>
     <string name="settings_scheduled_tasks_cancel">Peruuta tehtävä</string>

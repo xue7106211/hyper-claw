@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">歡迎使用 Kai</string>
+    <string name="welcome_message">歡迎使用 Hyper-Claw</string>
     <string name="prompt_ask_question">提問</string>
     <string name="error_invalid_api_key">API 金鑰無效。請檢查您的設定。</string>
     <string name="error_rate_limit_exceeded">超出速率限制。請稍後重試。</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">重新產生</string>
     <string name="error_empty_response">未收到回覆。請嘗試開始新對話或縮短您的訊息。</string>
     <string name="settings_daemon_mode">背景模式</string>
-    <string name="settings_daemon_mode_description">讓 Kai 在背景持續執行，以便即使應用程式不在前景時排程任務也能執行。</string>
+    <string name="settings_daemon_mode_description">讓 Hyper-Claw 在背景持續執行，以便即使應用程式不在前景時排程任務也能執行。</string>
     <string name="settings_scheduled_tasks">排程任務</string>
     <string name="settings_scheduled_tasks_description">AI 排程的未來執行任務。請 AI 提醒您或稍後執行某些操作來建立排程任務。</string>
     <string name="settings_scheduled_tasks_cancel">取消任務</string>

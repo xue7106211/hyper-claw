@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Bem-vindo ao Kai</string>
+    <string name="welcome_message">Bem-vindo ao Hyper-Claw</string>
     <string name="prompt_ask_question">Faça uma pergunta</string>
     <string name="error_invalid_api_key">Chave de API inválida. Por favor, verifique suas configurações.</string>
     <string name="error_rate_limit_exceeded">Limite de taxa excedido. Por favor, tente novamente mais tarde.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Regenerar</string>
     <string name="error_empty_response">Nenhuma resposta recebida. Tente iniciar uma nova conversa ou encurtar sua mensagem.</string>
     <string name="settings_daemon_mode">Modo Daemon</string>
-    <string name="settings_daemon_mode_description">Mantenha o Kai em execução em segundo plano para que as tarefas agendadas sejam executadas mesmo quando o aplicativo não estiver em primeiro plano.</string>
+    <string name="settings_daemon_mode_description">Mantenha o Hyper-Claw em execução em segundo plano para que as tarefas agendadas sejam executadas mesmo quando o aplicativo não estiver em primeiro plano.</string>
     <string name="settings_scheduled_tasks">Tarefas agendadas</string>
     <string name="settings_scheduled_tasks_description">Tarefas agendadas pela IA para execução futura. Peça à IA para lembrá-lo ou executar algo mais tarde para criar tarefas agendadas.</string>
     <string name="settings_scheduled_tasks_cancel">Cancelar tarefa</string>

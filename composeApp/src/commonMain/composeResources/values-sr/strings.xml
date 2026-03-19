@@ -1,5 +1,5 @@
 <resources>
-    <string name="welcome_message">Добродошли у Kai</string>
+    <string name="welcome_message">Добродошли у Hyper-Claw</string>
     <string name="prompt_ask_question">Поставите питање</string>
     <string name="error_invalid_api_key">Неважећи API кључ. Проверите подешавања.</string>
     <string name="error_rate_limit_exceeded">Ограничење захтева је премашено. Покушајте поново касније.</string>
@@ -67,7 +67,7 @@
     <string name="bot_message_regenerate_content_description">Поново генериши</string>
     <string name="error_empty_response">Није примљен одговор. Покушајте да започнете нови разговор или скратите поруку.</string>
     <string name="settings_daemon_mode">Режим демона</string>
-    <string name="settings_daemon_mode_description">Одржавајте Kai покренутим у позадини тако да се заказани задаци извршавају чак и када апликација није у првом плану.</string>
+    <string name="settings_daemon_mode_description">Одржавајте Hyper-Claw покренутим у позадини тако да се заказани задаци извршавају чак и када апликација није у првом плану.</string>
     <string name="settings_scheduled_tasks">Заказани задаци</string>
     <string name="settings_scheduled_tasks_description">Задаци које је АИ заказао за будуће извршавање. Замолите АИ да вас подсети или покрене нешто касније да бисте креирали заказане задатке.</string>
     <string name="settings_scheduled_tasks_cancel">Откажи задатак</string>

@@ -427,7 +427,7 @@ private fun BottomInfo() {
             style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.primary,
             modifier = Modifier
-                .clickable { uriHandler.openUri("https://simonschubert.github.io/Kai/docs/") }
+                .clickable { uriHandler.openUri("https://www.xyf.design") }
                 .pointerHoverIcon(PointerIcon.Hand),
         )
     }
@@ -1476,10 +1476,10 @@ private fun IntegrationsContent(
                 )
                 Spacer(Modifier.height(8.dp))
                 OutlinedButton(
-                    onClick = { uriHandler.openUri("https://github.com/SimonSchubert/Kai/issues/new?template=integration_request.yml") },
+                    onClick = { uriHandler.openUri("https://www.xyf.design") },
                     modifier = Modifier.pointerHoverIcon(PointerIcon.Hand),
                 ) {
-                    Text("Open GitHub Issue")
+                    Text("Contact Us")
                 }
             }
         }
